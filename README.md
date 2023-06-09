@@ -64,7 +64,7 @@ cdk deploy
 
 ![image](https://github.com/kyopark2014/ecs-fargate-sagemaker-based-webservice/assets/52392004/9c308c78-618e-488e-8060-c98f684ce121)
 
-아래와 같이 Cloud9의 왼쪽 탐색기에서 "ecs-fargate-sagemaker-based-webservice/web/app/router.js" 파일을 아래와 같이 BASE_URL을 WasAlbUrl로 업데이트합니다.
+아래와 같이 Cloud9의 왼쪽 탐색기에서 "image-classification-using-ecs-fargate/web/app/router.js" 파일을 아래와 같이 BASE_URL을 WasAlbUrl로 업데이트합니다.
 
 ![noname](https://github.com/kyopark2014/ecs-fargate-sagemaker-based-webservice/assets/52392004/b8af281b-5f7e-4235-a17e-aeb5d102cdc4)
 
