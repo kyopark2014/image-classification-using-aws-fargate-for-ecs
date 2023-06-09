@@ -2,9 +2,9 @@
 
 여기서는 [ecs-fargate-sagemaker-based-webservice](https://github.com/hijigoo/ecs-fargate-sagemaker-based-webservice)에서 SageMaker로 이미지 분류와 ECS Fargate로 Inference를 구현하는것을 정리하려고 합니다.
 
-[Amazon ECS](https://aws.amazon.com/ko/ecs/)와 [AWS Fargate](https://aws.amazon.com/ko/fargate/)로 구현된 어플리케이션에서 SageMaker Endpoint를 이용하여 이미지 분류를 수행하는 아키텍처를 구현합니다.
-
 ## Architecture
+
+[Amazon ECS](https://aws.amazon.com/ko/ecs/)와 [AWS Fargate](https://aws.amazon.com/ko/fargate/)로 구현된 어플리케이션에서 SageMaker Endpoint를 이용하여 이미지 분류를 수행하는 아키텍처를 구현합니다.
 
 ## 구현
 
@@ -28,7 +28,7 @@ chmod a+rx resize.sh
 ./resize.sh 100
 ```
 
-## CDK로 설치하기
+### CDK로 설치하기
 
 소스를 다운로드 합니다. (아래 경로 변경 필요함)
 
