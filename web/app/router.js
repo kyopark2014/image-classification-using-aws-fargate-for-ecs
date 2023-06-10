@@ -37,7 +37,7 @@ router.get("/was/health", function (req, res) {
       console.log(message)
       return res.json(message)
     } {
-      message = {"error": err, "message": "WAS 주소를 변경해주세요"}
+      message = {"error": err, "message": "Update the address of WAS in router.js"}
       console.log(message)
       return res.json(message)
     }
