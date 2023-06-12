@@ -12,9 +12,7 @@
 
 [Kaggle's Flowers](https://www.kaggle.com/datasets/l3llff/flowers)에 접속하여 아래와 같이 Download 버튼을 눌러서 파일을 다운로드합니다.
 
-![noname](https://github.com/kyopark2014/image-classification-using-ecs-fargate/assets/52392004/e46512b0-fe29-455e-80e8-48b936e25577)
-
-
+<img src="https://github.com/kyopark2014/image-classification-using-ecs-fargate/assets/52392004/e46512b0-fe29-455e-80e8-48b936e25577" width="600">
 
 ## 구현
 
