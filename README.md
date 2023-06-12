@@ -6,6 +6,13 @@
 
 [Amazon ECS](https://aws.amazon.com/ko/ecs/)와 [AWS Fargate](https://aws.amazon.com/ko/fargate/)로 구현된 어플리케이션에서 SageMaker Endpoint를 이용하여 이미지 분류를 수행하는 아키텍처를 구현합니다.
 
+## Training
+
+### Data
+
+[Kaggle's Flowers](https://www.kaggle.com/datasets/l3llff/flowers)
+
+
 ## 구현
 
 ### AWS Cloud9 환경 준비
