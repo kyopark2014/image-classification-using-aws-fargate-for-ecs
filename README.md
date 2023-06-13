@@ -24,6 +24,10 @@
 - [Service](./cdk-image-classification/README.md#task-definition-web) : Task를 실행하고 관리하는 시스템입니다.
 
 
+아래 그림은 ECS를 EC2와 Fargate로 구성하였을때의 차이점을 보여줍니다.
+
+<img src="https://github.com/kyopark2014/image-classification-using-ecs-fargate/assets/52392004/623b9cc2-0760-42dc-a9ef-3e8b534beb48" width="600">
+
 
 ### AWS Cloud9 환경 준비
 
