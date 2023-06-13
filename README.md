@@ -13,6 +13,12 @@
 
 ## 구현
 
+### ECS Terminalogy
+
+![image](https://github.com/kyopark2014/image-classification-using-ecs-fargate/assets/52392004/fe14ca1e-8213-49f6-8102-9e840a4a16ef)
+
+[AWS EC2 on ECS vs Fargate](https://www.youtube.com/watch?v=DVrGXjjkpig) 참조
+
 ### AWS Cloud9 환경 준비
 
 배포의 편의를 위하여 [AWS Cloud](https://aws.amazon.com/ko/cloud9/)을 이용하여 설치를 진행합니다.
