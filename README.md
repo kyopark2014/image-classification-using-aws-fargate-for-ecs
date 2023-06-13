@@ -17,7 +17,7 @@
 
 [AWS EC2 on ECS vs Fargate](https://www.youtube.com/watch?v=DVrGXjjkpig)와 같이 ECS Terminalogy와 관련된 CDK 코드를 설명합니다. 일반적으로 EC2로 ECS를 구성하면 서비스에 대한 컨트롤에 유리하므로 예측되는 Job을 High utilization 할 수 있으며, Fargate는 구성(Setup) 및 유지보수(Maintenance)가 유리하고 Adhoc Job들을 유연(Flexibility)하게 관리할 수 있습니다. 
 
-- Task : ECS의 Runtime instance로서 ECS의 구성하는 block중 가장 기본이 됩니다.
+- Task : ECS의 Runtime instance로서 ECS를 구성하는 가장 기본이 되는 block입니다.
 - [Task Definitions](./cdk-image-classification/README.md#task-definition-web) : Task를 위한 Template로 Docker 이미지를 포함한 Memory/CPU 요구사항을 설정합니다.
 - Container(EC2 only) : Task를 구동하는 가상의 인스턴스입니다.
 - [Cluster](./cdk-image-classification/README.md#cluster) : Task들을 실행하는 컨테이너(EC2) 또는 Task(Fargate)의 그룹(Group)입니다.
