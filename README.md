@@ -1,4 +1,4 @@
-# ECS Fargate를 이용한 이미지 분류 구현하기
+# AWS Fargate를 이용한 이미지 분류 구현하기
 
 여기서는 [ecs-fargate-sagemaker-based-webservice](https://github.com/hijigoo/ecs-fargate-sagemaker-based-webservice)에서 SageMaker로 이미지 분류와 ECS Fargate로 Inference를 구현하는것을 정리하려고 합니다.
 
@@ -127,3 +127,6 @@ cdk destroy
 [AWS EC2 on ECS vs Fargate](https://www.youtube.com/watch?v=DVrGXjjkpig)
 
 [AWS Fargate와 Amazon ECS를 활용한 CI/CD 모범사례](https://www.youtube.com/watch?v=ZRPdVY5lFBM)
+
+[Securing Amazon SageMaker Studio connectivity using a private VPC](https://aws.amazon.com/ko/blogs/machine-learning/securing-amazon-sagemaker-studio-connectivity-using-a-private-vpc/)
+
