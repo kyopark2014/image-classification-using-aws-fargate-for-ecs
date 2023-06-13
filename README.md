@@ -15,7 +15,8 @@
 
 ### ECS Terminalogy
 
-![image](https://github.com/kyopark2014/image-classification-using-ecs-fargate/assets/52392004/fe14ca1e-8213-49f6-8102-9e840a4a16ef)
+![image](https://github.com/kyopark2014/image-classification-using-ecs-fargate/assets/52392004/43339f58-ecf6-43b8-87d7-4757f0542c64)
+
 
 [AWS EC2 on ECS vs Fargate](https://www.youtube.com/watch?v=DVrGXjjkpig) 참조
 
