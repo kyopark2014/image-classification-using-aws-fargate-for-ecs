@@ -317,7 +317,9 @@ new cdk.CfnOutput(this, 'Was-Alb-Url', {
 }); 
 ``` 
 
+## Interface Endpoint
 
+[Interface Endpoint](https://github.com/amcquistan/aws-vpc-endpoints-with-cdk/blob/main/lib/vpc-endpoints-stack.ts)
 
 
 
