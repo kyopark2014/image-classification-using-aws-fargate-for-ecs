@@ -15,10 +15,15 @@
 
 ### ECS Terminalogy
 
-![image](https://github.com/kyopark2014/image-classification-using-ecs-fargate/assets/52392004/43339f58-ecf6-43b8-87d7-4757f0542c64)
+[AWS EC2 on ECS vs Fargate](https://www.youtube.com/watch?v=DVrGXjjkpig)와 같이 ECS Terminalogy와 관련된 CDK 코드를 설명합니다.
+
+- Task : ECS의 Runtime instance로서 ECS의 구성하는 block중 가장 기본이 됩니다.
+- [Task Definitions](./cdk-image-classification/README.md#task-definition-web) : Task를 위한 Template로 Docker 이미지를 포함한 Memory/CPU 요구사항을 설정합니다.
+- Container(EC2 only) : Task를 구동하는 가상의 인스턴스입니다.
+- [Cluster](./cdk-image-classification/README.md#cluster) : Task들을 실행하는 컨테이너(EC2) 또는 Task(Fargate)의 그룹(Group)입니다.
+- [Service](./cdk-image-classification/README.md#task-definition-web) : Task를 실행하고 관리하는 시스템입니다.
 
 
-[AWS EC2 on ECS vs Fargate](https://www.youtube.com/watch?v=DVrGXjjkpig) 참조
 
 ### AWS Cloud9 환경 준비
 
