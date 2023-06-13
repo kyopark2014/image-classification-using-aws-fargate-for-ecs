@@ -24,7 +24,7 @@
 - [Service](./cdk-image-classification/README.md#task-definition-web) : Task를 실행하고 관리하는 시스템입니다.
 
 
-아래 그림은 ECS를 EC2와 Fargate로 구성하였을때의 차이점을 보여줍니다.
+아래 그림은 ECS를 EC2와 Fargate로 구성하였을때의 차이점을 보여줍니다. EC2로 ECS를 구성시에는 컨테이너 1개에 여러개의 Task를 가질수 있고, 이것으로 Autoscaling group으로 묶여진 Cluster를 구성하는데, Fargate는 Task들로만 구성된 Cluster를 구현할 수 있습니다.
 
 <img src="https://github.com/kyopark2014/image-classification-using-ecs-fargate/assets/52392004/623b9cc2-0760-42dc-a9ef-3e8b534beb48" width="600">
 
