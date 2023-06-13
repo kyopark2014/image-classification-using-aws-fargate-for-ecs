@@ -6,8 +6,7 @@
 
 [Amazon ECS](https://aws.amazon.com/ko/ecs/)와 [AWS Fargate](https://aws.amazon.com/ko/fargate/)로 구현된 어플리케이션에서 SageMaker Endpoint를 이용하여 이미지 분류를 수행하는 아키텍처를 구현합니다. 샹세한 Architecture는 [ecs-fargate-sagemaker-based-webservice](https://github.com/hijigoo/ecs-fargate-sagemaker-based-webservice)를 참조하여 아래와 같이 간단히 그렸습니다.
 
-![image](https://github.com/kyopark2014/image-classification-using-aws-fargate-for-ecs/assets/52392004/cf4b7208-2344-456b-9dd7-47aef5355645)
-
+![image](https://github.com/kyopark2014/image-classification-using-aws-fargate-for-ecs/assets/52392004/10f8010c-6f3e-4468-a802-4e958d4f97bd)
 
 ## Training
 
