@@ -101,7 +101,7 @@ taskDefinition_Web.addContainer('app-web', {
 });
 ``` 
 
-### Service
+### Service (WEB)
 
 WEB는 Fargate에 서비스 형태로 올라갑니다. 아래와 같이 최대 4개, 최소 2개이고 기본은 2개로 선언합니다. 오토스케일링은 CPU 부하가 70%를 기준으로 하고 300초 Cool Up/Down 시간을 가지도록 선언하였습니다.
 
