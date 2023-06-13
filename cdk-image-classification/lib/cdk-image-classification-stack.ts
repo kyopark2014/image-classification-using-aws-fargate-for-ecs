@@ -248,5 +248,12 @@ export class CdkImageClassificationStack extends cdk.Stack {
       value: "http://"+alb_was.loadBalancerDnsName,
       description: 'Address of WAS ALB URL',
     }); 
+
+  /*  const sageMakerNotebookEndpoint = vpc.addInterfaceEndpoint('sageMakerNotebookEndpoint', {
+      service: ec2.InterfaceVpcEndpointAwsService.SageMakerNotebook,
+      privateDnsEnabled: true,
+      subnets: { subnetType: ec2.SubnetType.PRIVATE_ISOLATED }
+    });
+    sageMakerNotebookEndpoint.connections.allowDefaultPortFromAnyIpv4(); */
   }
 }
