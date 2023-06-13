@@ -121,3 +121,10 @@ Cloud9의 터미널에 접속하여 아래와 같이 설치한 인프라들을 �
 ```java
 cdk destroy
 ```
+
+
+## Reference
+
+[AWS EC2 on ECS vs Fargate](https://www.youtube.com/watch?v=DVrGXjjkpig)
+
+[AWS Fargate와 Amazon ECS를 활용한 CI/CD 모범사례](https://www.youtube.com/watch?v=ZRPdVY5lFBM)
